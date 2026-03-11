@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "serve": "node index.js",
+  "dev": "nodemon index.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/artin793/1738.git"
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/artin793/1738#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "pg": "^8.20.0"
   }
 }
